@@ -17,5 +17,6 @@ spec:
       containers:
       - name: frontend
         image: bstijnb/browser-client:103b5222cd7b310815d1d7077f7badfd245129ff
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
