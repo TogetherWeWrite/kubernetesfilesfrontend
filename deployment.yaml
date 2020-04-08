@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: bstijnb/browser-client:ed7354de6a21dd2d089141927010565c56b902e4
+        image: bstijnb/browser-client:103b5222cd7b310815d1d7077f7badfd245129ff
         ports:
         - containerPort: 80
