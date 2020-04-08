@@ -6,6 +6,6 @@ spec:
   selector:
     app: frontend
   ports:
-    - protocol: TLS
+    - protocol: TCP
       port: 80
       targetPort: 80
