@@ -12,4 +12,4 @@ spec:
       - path: /*
         backend:
           serviceName: frontendservice
-          servicePort: 80
+          servicePort: 31000
