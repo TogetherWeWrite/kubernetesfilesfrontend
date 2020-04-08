@@ -9,7 +9,6 @@ spec:
   - host: front.stijnbaltessen.digital
     http:
       paths:
-      - path: /*
-        backend:
-          serviceName: frontendservice
-          servicePort: 31000
+        - backend:
+            serviceName: frontendservice
+            servicePort: 31000
